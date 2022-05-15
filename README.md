@@ -28,3 +28,9 @@ pass: 123456
 For employee user: 
 email : store.executive@gmail.com
 pass: 123456
+
+to start server run :
+
+php artisan serve 
+
+npm run watch / npm run dev
