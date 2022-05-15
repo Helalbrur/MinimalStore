@@ -59,12 +59,12 @@ run command : php artisan migrate --seed  // Create migration and also dummy dat
 
 For admin user: 
 email : admin@gmail.com
-123456
+pass: 123456
 
 For employee user: 
 email : employee@gmail.com
-123456
+pass: 123456
 
 For employee user: 
 email : store.executive@gmail.com
-123456
+pass: 123456
