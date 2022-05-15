@@ -46,10 +46,15 @@ pcs and total price 500tk. Second issue will be 4 pcs and total price 460tk (100
 
 
 To test the project 
+
 clone repository
+
 run command : composer install
+
 npm install
+
 setup database and user in .env
+
 run command : php artisan migrate --seed  // Create migration and also dummy data
 
 For admin user: 
