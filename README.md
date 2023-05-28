@@ -26,21 +26,21 @@
   <li>Clone the repository to your local machine:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/store-system.git
+<pre><code>git clone https://github.com/Helalbrur/MinimalStore.git
 </code></pre>
 
 <ol start="2">
   <li>Navigate to the project directory:</li>
 </ol>
 
-<pre><code>cd store-system
+<pre><code>cd MinimalStore
 </code></pre>
 
 <ol start="3">
   <li>Install PHP dependencies:</li>
 </ol>
 
-<pre><code>composer install
+<pre><code>composer update
 </code></pre>
 
 <ol start="4">
@@ -51,12 +51,23 @@
 </code></pre>
 
 <ol start="5">
-  <li>Set up the database and user credentials in the <code>.env</code> file.</li>
+  <li>Create a copy of the <code>.env-example</code> file and rename it to <code>.env</code>:</li>
 </ol>
 
+<pre><code>cp .env-example .env
+</code></pre>
+
 <ol start="6">
-  <li>Run the database migrations and seed the database with dummy data:</li>
+  <li>Generate an application key:</li>
 </ol>
+
+<pre><code>php artisan key:generate
+</code></pre>
+
+<ol start="7">
+  <li>Run the database migrations:</li>
+</ol>
+
 
 <pre><code>php artisan migrate --seed
 </code></pre>
